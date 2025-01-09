@@ -149,6 +149,12 @@ namespace _02_Variables
 
             //Console.WriteLine("Seçtiğiniz Cinsiyet: " + gender );
 
+            char choice;
+            Console.Write("Devam Etmek İstiyormusunuz? (Y/N): ");
+            choice = char.Parse(Console.ReadLine());
+
+            Console.WriteLine("Tercihiniz: " + choice );
+
 
             #endregion
 
